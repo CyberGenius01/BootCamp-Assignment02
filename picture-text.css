@@ -151,11 +151,12 @@ body{
 }
 
 .drop-content > div{
-    border: 2px solid white;
+    border: none;
 }
 
     .drop-content > div:hover {
-        border: 2px solid #FF1050E8;
+        background-color: #FF1050E8;
+        color: white;
     }
 
 .drop-content::after{
